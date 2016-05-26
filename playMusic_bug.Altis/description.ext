@@ -1,0 +1,11 @@
+enableDebugConsole = true;
+
+class CfgMusic
+{
+	tracks[] = {};
+	class custommusic
+	{
+		name = "";
+		sound[] = {"\music.ogg", db+0, 1.0};
+	};
+};

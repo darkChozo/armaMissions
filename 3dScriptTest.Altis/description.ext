@@ -1,0 +1,13 @@
+enableDebugConsole = 2;
+
+class CfgSounds
+{
+	sounds[] = {};
+	class rocket
+	{
+		name = "rocket";
+		// start path to sound file in AddOn with @
+		sound[] = {"@A3\Sounds_F\air\Plane_Fighter_03\Plane_Fighter_03-fors_ext.wss", 1, 1};
+		titles[] = {};
+	};
+};

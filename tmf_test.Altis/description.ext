@@ -1,0 +1,85 @@
+tmf_version[] = {1,0,0}; // DO NOT CHANGE THIS. This is the core version of the template that your mission was started with.
+enableDebugConsole = 1; // Allows the logged in Admin to use the debug console from the scape page.
+
+// Use a randomized loading image from TMF.
+overviewPicture = __EVAL(selectRandom ['\x\tmf\addons\common\ui\loadscreens\1.jpg','\x\tmf\addons\common\ui\loadscreens\2.jpg','\x\tmf\addons\common\ui\loadscreens\3.jpg','\x\tmf\addons\common\ui\loadscreens\4.jpg','\x\tmf\addons\common\ui\loadscreens\5.jpg','\x\tmf\addons\common\ui\loadscreens\6.jpg','\x\tmf\addons\common\ui\loadscreens\7.jpg','\x\tmf\addons\common\ui\loadscreens\8.jpg','\x\tmf\addons\common\ui\loadscreens\9.jpg','\x\tmf\addons\common\ui\loadscreens\10.jpg']);
+
+class CfgDebriefing
+{
+	class Success
+	{
+		title = "Mission completed";
+		subtitle = "";
+		description = "";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class Failed
+	{
+		title = "Mission failed";
+		subtitle = "";
+		description = "";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+	class CustomEnding1
+	{
+		title = "Custom Ending #1";
+		subtitle = "";
+		description = "*** Insert explaination for thedebriefing page ***";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+};
+
+//DO NOT REMOVE Include the macros for custom loadouts.
+#include "loadouts\_macros.hpp"
+
+class CfgLoadouts
+{
+/*
+	class West
+	{
+		defaultFaction = "BLU_F";
+		class US_ARMY
+		{
+			displayName = "US Army (OCP)";
+			#include "loadouts\us_army_rhs_1tac.hpp"
+		};
+	};
+	class East
+	{
+		defaultFaction = "OPF_F";
+		class RUS_MSV
+		{
+			displayName = "RU (MSV)";
+			#include "loadouts\ru_msv_flora.hpp"
+		};
+	};
+	class Resistance
+	{
+		defaultFaction = "IND_F";
+		class TAK_ARMY
+		{
+			displayName = "Takistani Army";
+			#include "loadouts\taki_army_1tac.hpp"
+		};
+	};*/
+};
+
+class ACE_settings {
+	class ace_finger_enabled {
+		value = 1;
+		typeName = "BOOL";
+		force = 1;
+	};
+	class ace_finger_maxRange {
+		value = 5;
+		typeName = "SCALAR";
+		force = 1;
+	};
+};

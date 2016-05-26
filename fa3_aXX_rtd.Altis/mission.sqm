@@ -1,0 +1,1000 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"a3_characters_f_beta",
+		"A3_Characters_F_Civil",
+		"A3_Boat_F_Boat_Transport_01",
+		"a3_map_altis",
+		"A3_Soft_F_EPC_Truck_03",
+		"a3_uav_f_characters_f_gamma",
+		"A3_Characters_F_Bootcamp",
+		"A3_Modules_F",
+		"A3_Modules_F_Curator_Curator",
+		"A3_Modules_F_Supports",
+		"A3_Static_F_Mortar_01",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_Heli_Heli_Light_02",
+		"a3_air_f_heli_light_02",
+		"A3_Air_F_EPB_Heli_Light_03",
+		"A3_Static_F_Beta_Mortar_01",
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Characters_F_Gamma",
+		"A3_Characters_F_OPFOR",
+		"A3_Characters_F_INDEP",
+		"A3_Characters_F_EPC",
+		"A3_Data_F_Curator_Virtual",
+		"A3_Air_F_Heli_Heli_Transport_03",
+		"A3_Air_F_Heli_Heli_Transport_04",
+		"A3_Air_F_Beta_Heli_Transport_02",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Armor_F_Panther",
+		"A3_Air_F_Beta_Heli_Attack_01",
+		"A3_Armor_F_Marid",
+		"A3_Air_F_Beta_Heli_Attack_02",
+		"A3_Armor_F_EPC_MBT_01",
+		"A3_Armor_F_APC_Wheeled_03",
+		"A3_Armor_F_T100K",
+		"A3_Armor_F_EPB_MBT_03",
+		"A3_Soft_F_TruckHeavy",
+		"A3_Soft_F_MRAP_03",
+		"A3_Soft_F_MRAP_01",
+		"A3_Soft_F_HEMTT",
+		"A3_Soft_F_MRAP_02",
+		"A3_Soft_F_Gamma_Offroad",
+		"a3_soft_f_offroad_01",
+		"A3_Soft_F_Truck",
+		"A3_Weapons_F_Beta_Ammoboxes",
+		"a3_weapons_f_ammoboxes",
+		"A3_Air_F_Heli_Heli_Light_01",
+		"A3_Armor_F_AMV",
+		"A3_armor_f_beta_APC_Tracked_02",
+		"A3_Armor_F_EPB_APC_tracked_03",
+		"3DEN",
+		"A3_Modules_F_Curator_Misc"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_Gamma",
+		"a3_characters_f",
+		"A3_Modules_F_Curator_Misc",
+		"A3_Modules_F",
+		"A3_Soft_F_Gamma_Offroad",
+		"a3_soft_f_offroad_01",
+		"a3_map_altis"
+	};
+	randomSeed=11823142;
+	class Intel
+	{
+		briefingName="fa3_aXX_rtd";
+		overviewText="F3 v3-3-0 | FA OrBat 2015 | WS_fnc 260415";
+		resistanceWest=0;
+		startWeather=0.84999996;
+		startWind=0;
+		forecastWeather=0.84999996;
+		forecastWind=0;
+		forecastWaves=0;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=8;
+		minute=15;
+		startFogDecay=0;
+		forecastFogDecay=0;
+	};
+	class Groups
+	{
+		items=18;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4986.6499,29.204298,13610.705};
+					azimut=31.657301;
+					id=0;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAYER COMMANDER";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV1_G";
+					init="GrpFIA_IFV1 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV1;";
+					description="FIA Technical 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={4987.5444,29.370701,13607.418};
+					azimut=31.657333;
+					id=1;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV1_D";
+					init="GrpFIA_IFV1 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV1;";
+					description="FIA Technical 1 Driver (Repair)";
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4983.417,29.727367,13597.882};
+					azimut=29.454489;
+					id=2;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV2_G";
+					init="GrpFIA_IFV2 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV2;";
+					description="FIA Technical 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={4984.4375,29.820747,13594.629};
+					azimut=29.454489;
+					id=3;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV2_D";
+					init="GrpFIA_IFV2 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV2;";
+					description="FIA Technical 2 Driver (Repair)";
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4979.8374,30.105247,13586.63};
+					azimut=24.710476;
+					id=4;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV3_G";
+					init="GrpFIA_IFV3 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV3;";
+					description="FIA Technical 3 Gunner";
+				};
+				class Item1
+				{
+					position[]={4981.1206,30.174593,13583.471};
+					azimut=24.710476;
+					id=5;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV3_D";
+					init="GrpFIA_IFV3 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV3;";
+					description="FIA Technical 3 Driver (Repair)";
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4976.3867,30.478695,13575.746};
+					azimut=41.843315;
+					id=6;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV4_G";
+					init="GrpFIA_IFV4 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV4;";
+					description="FIA Technical 4 Gunner";
+				};
+				class Item1
+				{
+					position[]={4976.6865,30.60697,13572.356};
+					azimut=41.843315;
+					id=7;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV4_D";
+					init="GrpFIA_IFV4 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV4;";
+					description="FIA Technical 4 Driver (Repair)";
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4970.894,31.116535,13561.704};
+					azimut=29.41786;
+					id=8;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV5_G";
+					init="GrpFIA_IFV5 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV5;";
+					description="FIA Technical 5 Gunner";
+				};
+				class Item1
+				{
+					position[]={4971.9121,31.25429,13558.451};
+					azimut=29.41786;
+					id=9;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV5_D";
+					init="GrpFIA_IFV5 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV5;";
+					description="FIA Technical 5 Driver (Repair)";
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4966.0645,31.865328,13548.226};
+					azimut=19.781675;
+					id=10;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV6_G";
+					init="GrpFIA_IFV6 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV6;";
+					description="FIA Technical 6 Gunner";
+				};
+				class Item1
+				{
+					position[]={4967.606,31.965622,13545.199};
+					azimut=19.781675;
+					id=11;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV6_D";
+					init="GrpFIA_IFV6 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV6;";
+					description="FIA Technical 6 Driver (Repair)";
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4958.3574,32.447174,13539.339};
+					azimut=46.602493;
+					id=12;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV7_G";
+					init="GrpFIA_IFV7 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV7;";
+					description="FIA Technical 7 Gunner";
+				};
+				class Item1
+				{
+					position[]={4958.3599,32.605,13535.932};
+					azimut=46.602493;
+					id=13;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV7_D";
+					init="GrpFIA_IFV7 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV7;";
+					description="FIA Technical 7 Driver (Repair)";
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={4947.8398,33.20351,13528.626};
+					azimut=51.707001;
+					id=14;
+					side="WEST";
+					vehicle="B_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitFIA_IFV8_G";
+					init="GrpFIA_IFV8 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehFIA_IFV8;";
+					description="FIA Technical 8 Gunner";
+				};
+				class Item1
+				{
+					position[]={4947.5474,33.374039,13525.235};
+					azimut=51.707001;
+					id=15;
+					side="WEST";
+					vehicle="B_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitFIA_IFV8_D";
+					init="GrpFIA_IFV8 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehFIA_IFV8;";
+					description="FIA Technical 8 Driver (Repair)";
+				};
+			};
+		};
+		class Item8
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5165.623,17.852802,14350.7};
+					azimut=202.62029;
+					id=16;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV1_G";
+					init="GrpOFIA_IFV1 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV1;";
+					description="AIF Technical 1 Gunner";
+				};
+				class Item1
+				{
+					position[]={5164.2236,17.865211,14353.802};
+					azimut=202.62029;
+					id=17;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV1_D";
+					init="GrpOFIA_IFV1 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV1;";
+					description="AIF Technical 1 Driver (Repair)";
+				};
+			};
+		};
+		class Item9
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5166.8018,17.919197,14363.879};
+					azimut=200.41731;
+					id=18;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV2_G";
+					init="GrpOFIA_IFV2 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV2;";
+					description="AIF Technical 2 Gunner";
+				};
+				class Item1
+				{
+					position[]={5165.2905,17.939547,14366.932};
+					azimut=200.41731;
+					id=19;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV2_D";
+					init="GrpOFIA_IFV2 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV2;";
+					description="AIF Technical 2 Driver (Repair)";
+				};
+			};
+		};
+		class Item10
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5168.5762,17.991095,14375.561};
+					azimut=195.67328;
+					id=20;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV3_G";
+					init="GrpOFIA_IFV3 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV3;";
+					description="AIF Technical 3 Gunner";
+				};
+				class Item1
+				{
+					position[]={5166.8115,18.002975,14378.473};
+					azimut=195.67328;
+					id=21;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV3_D";
+					init="GrpOFIA_IFV3 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV3;";
+					description="AIF Technical 3 Driver (Repair)";
+				};
+			};
+		};
+		class Item11
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5170.0571,18.045784,14388.361};
+					azimut=203.61131;
+					id=22;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV4_G";
+					init="GrpOFIA_IFV4 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV4;";
+					description="AIF Technical 4 Gunner";
+				};
+				class Item1
+				{
+					position[]={5168.7173,18.050846,14391.493};
+					azimut=203.61131;
+					id=23;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV4_D";
+					init="GrpOFIA_IFV4 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV4;";
+					description="AIF Technical 4 Driver (Repair)";
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5173.6538,18.090631,14402.263};
+					azimut=195.32928;
+					id=24;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV5_G";
+					init="GrpOFIA_IFV5 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV5;";
+					description="AIF Technical 5 Gunner";
+				};
+				class Item1
+				{
+					position[]={5171.877,18.116653,14405.167};
+					azimut=195.32928;
+					id=25;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV5_D";
+					init="GrpOFIA_IFV5 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV5;";
+					description="AIF Technical 5 Driver (Repair)";
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5177.3838,18.337543,14416.636};
+					azimut=197.42429;
+					id=26;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV6_G";
+					init="GrpOFIA_IFV6 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV6;";
+					description="AIF Technical 6 Gunner";
+				};
+				class Item1
+				{
+					position[]={5175.7178,18.274849,14419.59};
+					azimut=197.42429;
+					id=27;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV6_D";
+					init="GrpOFIA_IFV6 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV6;";
+					description="AIF Technical 6 Driver (Repair)";
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5179.7847,18.462061,14431.479};
+					azimut=193.53729;
+					id=28;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV7_G";
+					init="GrpOFIA_IFV7 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV7;";
+					description="AIF Technical 7 Gunner";
+				};
+				class Item1
+				{
+					position[]={5177.9253,18.449316,14434.329};
+					azimut=193.53729;
+					id=29;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV7_D";
+					init="GrpOFIA_IFV7 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV7;";
+					description="AIF Technical 7 Driver (Repair)";
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={5181.9067,18.598604,14444.292};
+					azimut=190.52129;
+					id=30;
+					side="EAST";
+					vehicle="O_G_Soldier_F";
+					player="PLAY CDG";
+					leader=1;
+					rank="CORPORAL";
+					skill=0.60000002;
+					text="UnitOFIA_IFV8_G";
+					init="GrpOFIA_IFV8 = group this; [""vg"",this] call f_fnc_assignGear; this moveInGunner VehOFIA_IFV8;";
+					description="AIF Technical 8 Gunner";
+				};
+				class Item1
+				{
+					position[]={5179.8955,18.547499,14447.028};
+					azimut=190.52129;
+					id=31;
+					side="EAST";
+					vehicle="O_G_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+					text="UnitOFIA_IFV8_D";
+					init="GrpOFIA_IFV8 = group this; [""vd"",this] call f_fnc_assignGear; this moveInDriver VehOFIA_IFV8;";
+					description="AIF Technical 8 Driver (Repair)";
+				};
+			};
+		};
+		class Item16
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5244.2393,31.079079,13967.992};
+					id=32;
+					side="LOGIC";
+					vehicle="ModuleCoverMap_F";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=0;
+					synchronizations[]={1};
+				};
+			};
+		};
+		class Item17
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5246.6172,31.012131,13962.692};
+					id=33;
+					side="LOGIC";
+					vehicle="LocationArea_F";
+					leader=1;
+					skill=0.60000002;
+					description="FIA Technical 1 Gunner";
+					syncId=1;
+					synchronizations[]={2,0};
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=16;
+		class Item0
+		{
+			position[]={4994.2119,29.280603,13607.066};
+			azimut=25.046255;
+			id=34;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV1";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item1
+		{
+			position[]={4991.1094,29.74489,13594.535};
+			azimut=22.843477;
+			id=35;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV2";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item2
+		{
+			position[]={4987.7832,30.112089,13583.926};
+			azimut=18.099371;
+			id=36;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV3";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item3
+		{
+			position[]={4983.1851,30.574179,13570.813};
+			azimut=21.887789;
+			id=37;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV4";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item4
+		{
+			position[]={4978.582,31.122108,13558.372};
+			azimut=22.806776;
+			id=38;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV5";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item5
+		{
+			position[]={4974.1987,31.791557,13546.209};
+			azimut=13.170573;
+			id=39;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV6";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item6
+		{
+			position[]={4964.7178,32.565613,13533.866};
+			azimut=39.991398;
+			id=40;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV7";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item7
+		{
+			position[]={4953.6821,33.336227,13522.615};
+			azimut=45.095905;
+			id=41;
+			side="EMPTY";
+			vehicle="B_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehFIA_IFV8";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item8
+		{
+			position[]={5157.5874,17.862494,14353.122};
+			azimut=196.00928;
+			id=42;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV1";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item9
+		{
+			position[]={5158.6816,17.931431,14365.978};
+			azimut=193.80627;
+			id=43;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV2";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item10
+		{
+			position[]={5160.3081,17.987942,14376.984};
+			azimut=189.0623;
+			id=44;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV3";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item11
+		{
+			position[]={5162.0625,18.038546,14390.922};
+			azimut=183.6563;
+			id=45;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV4";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item12
+		{
+			position[]={5165.3833,18.086597,14403.641};
+			azimut=188.71831;
+			id=46;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV5";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item13
+		{
+			position[]={5169.168,18.192039,14418.303};
+			azimut=190.81329;
+			id=47;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV6";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item14
+		{
+			position[]={5171.4746,18.298466,14432.589};
+			azimut=186.92628;
+			id=48;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV7";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+		class Item15
+		{
+			position[]={5173.5532,18.410637,14444.971};
+			azimut=183.91029;
+			id=49;
+			side="EMPTY";
+			vehicle="O_G_Offroad_01_armed_F";
+			skill=0.60000002;
+			text="VehOFIA_IFV8";
+			init="[""v_ifv"",this] call f_fnc_assignGear;";
+		};
+	};
+	class Sensors
+	{
+		items=1;
+		class Item0
+		{
+			position[]={5239.9224,31.09148,13964.149};
+			a=500;
+			b=400;
+			angle=-84.860802;
+			rectangular=1;
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+			synchronizations[]={1};
+			syncId=2;
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=8428644;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=4674277;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis"
+	};
+	addOnsAuto[]=
+	{
+		"a3_map_altis"
+	};
+	randomSeed=6586695;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.30000001;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=14;
+		minute=15;
+		startFogDecay=0.0049333;
+		forecastFogDecay=0.0049333;
+	};
+};

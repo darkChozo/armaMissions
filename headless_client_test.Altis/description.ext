@@ -1,0 +1,19 @@
+enableDebugConsole = 1;
+
+class Params
+{
+	class AItoSpawn
+	{
+		title = "AI groups to spawn per side";
+		texts[] = {"10 (100 total AI)","15 (150 total AI)","20 (200 total AI)","25 (250 total AI)","30 (300 total AI)","35 (350 total AI)","40 (400 total AI)"};
+		values[] = {10,15,20,25,30,35,40};
+		default = 10;
+	};
+	class HCServerRatio
+	{
+		title = "HC/Server Ratio";
+		texts[] = {"0% HC, 100% server","25% HC, 75% server","50% HC, 50% server","75% HC, 25% server","100% HC, 0% server"};
+		values[] = {0,25,50,75,100};
+        default = 50;
+	};
+};

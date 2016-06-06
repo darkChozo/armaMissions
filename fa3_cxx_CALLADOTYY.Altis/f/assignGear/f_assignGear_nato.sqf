@@ -193,8 +193,8 @@ _MMGmag_tr = "130Rnd_338_Mag";
 // _MMGmag_tr = ""150Rnd_762x54_Box"_Tracer";
 
 // Marksman rifle
-_DMrifle = "srifle_DMR_04_F";
-_DMriflemag = "10Rnd_127x54_Mag";
+_DMrifle = "srifle_EBR_F";
+_DMriflemag = "20Rnd_762x51_Mag";
 
 // MAR-10
 //_DMrifle = "srifle_DMR_02_F";
@@ -461,7 +461,7 @@ switch (_typeofUnit) do
 		_unit addweapon _pistol;
 		_unit addWeapon "Rangefinder";
 		["ar"] call _backpack;
-		_attachments = ["optic_tws_mg",_bipod1,_silencer2];
+		_attachments pushBack _bipod2;
 	};
 
 // LOADOUT: JUNIOR RIFLEMAN
@@ -501,8 +501,9 @@ switch (_typeofUnit) do
 		_unit addmagazines [_smokegrenade,2];
 		_unit addmagazines [_pistolmag,3];
 		_unit addweapon _pistol;
+        _unit addWeapon "Rangefinder";
 		["dm"] call _backpack;
-		_attachments = [_attach1,"optic_TWS"];
+		_attachments = ["optic_NVS", "muzzle_snds_B", _bipod2];
 	};
 
 // LOADOUT: MEDIUM MG GUNNER

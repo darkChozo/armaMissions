@@ -75,7 +75,7 @@ if(isServer) then {
 
 f_var_removeBodyDelay = 120;
 f_var_removeBodyDistance = 360;
-f_var_doNotRemoveBodies = [];
+f_var_doNotRemoveBodies = [target] call ws_fnc_collectObjectsNum;
 [] execVM "f\removeBody\f_addRemoveBodyEH.sqf";
 
 // ====================================================================================
@@ -216,6 +216,8 @@ f_wound_extraFAK = 2;
 [] execVM "f\medical\medical_init.sqf";
 
 // ====================================================================================
+
+[] execVM "ws_garrisonControl.sqf";
 
 
 if (isServer) then {

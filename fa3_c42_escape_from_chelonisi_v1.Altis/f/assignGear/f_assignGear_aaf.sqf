@@ -73,7 +73,7 @@ _bipod1 = "bipod_03_F_oli";		// Default bipod
 _bipod2 = "bipod_03_F_blk";		// Black bipod
 
 // Default setup
-_attachments = [_attach1,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
+_attachments = [_attach2,_scope1]; // The default attachment set for most units, overwritten in the individual unitType
 
 // [] = remove all
 // [_attach1,_scope1,_silencer] = remove all, add items assigned in _attach1, _scope1 and _silencer1
@@ -851,6 +851,8 @@ switch (_typeofUnit) do
 		_unit addmagazines [_grenade,1];		// Do not use with mgrenades
 		//_unit addmagazines [_mgrenade,5];		// Do not use with grenades
 		_unit addmagazines [_smokegrenade,1];
+        _unit unlinkItem _nvg;
+        _unit enableGunLights "forceOn";
 	};
 
 // LOADOUT: GRENADIER

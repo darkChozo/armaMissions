@@ -397,6 +397,15 @@ class CfgFunctions
 {
 	//ws_fnc
 	#include "ws_fnc\config.hpp"
+    
+    class dc {
+        class pack {
+            class airSmoke {file="dc\airSmoke.sqf"};
+            class weightedSelectRandom {file="dc\weightedSelectRandom.sqf"};
+            class generateScalingCode {file="dc\generateScalingCode.sqf"};
+            class playersInThisList {file="dc\playersInThisList.sqf"};
+        };
+    };
 
 	class F // Defines the "owner"
 	{
@@ -530,3 +539,4 @@ class CfgUnitInsignia {
 };
 
 // ============================================================================================
+

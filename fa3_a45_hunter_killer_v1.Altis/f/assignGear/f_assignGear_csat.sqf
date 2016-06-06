@@ -241,7 +241,7 @@ _pilot = ["pp","pcc","pc"];
 _planePilot = ["pilot"];
 _crew = ["vc","vg","vd"];
 _ghillie = ["sn","sp"];
-_specOp = [];
+_specOp = ["civ"];
 
 // Basic clothing
 // The outfit-piece is randomly selected from the array for each unit
@@ -291,9 +291,9 @@ _ghillieRig = ["V_Chestrig_khk"];
 _ghillieGlasses = [];
 
 // Spec Op
-_sfuniform = ["U_O_SpecopsUniform_ocamo"];
-_sfhelmet = ["H_HelmetSpecO_ocamo","H_HelmetSpecO_blk"];
-_sfRig = ["V_PlateCarrier1_blk"];
+_sfuniform = ["U_C_WorkerCoveralls","U_C_HunterBody_grn","U_C_Poloshirt_blue","U_C_Poloshirt_burgundy","U_C_Poloshirt_stripped","U_C_Poloshirt_tricolour","U_C_Poloshirt_salmon","U_C_Poloshirt_redwhite","U_NikosBody","U_OrestesBody","U_Rangemaster","U_C_Poor_1","U_C_Journalist","U_Marshal"];
+_sfhelmet = [];
+_sfRig = [];
 _sfGlasses = [];
 
 
@@ -331,13 +331,11 @@ if (_isMan) then {
 	// ADD UNIVERSAL ITEMS
 	// Add items universal to all units of this faction
 
-	_unit linkItem _nvg;			// Add and equip the faction's nvg
 	_unit addItem _firstaid;		// Add a single first aid kit (FAK)
 	_unit linkItem "ItemMap";		// Add and equip the map
 	_unit linkItem "ItemCompass";	// Add and equip a compass
 	_unit linkItem "ItemRadio";		// Add and equip A3's default radio
 	_unit linkItem "ItemWatch";		// Add and equip a watch
-	_unit linkItem "ItemGPS"; 	// Add and equip a GPS
 
 };
 
@@ -366,6 +364,9 @@ switch (_typeofUnit) do
 {
 
 // ====================================================================================
+
+    case "civ" : {
+    };
 
 // LOADOUT: COMMANDER
 	case "co":

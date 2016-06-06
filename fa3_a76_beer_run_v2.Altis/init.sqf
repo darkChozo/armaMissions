@@ -254,6 +254,6 @@ if (hasInterface) then {
 };
 
 if (isServer) then {
-    sleep (60 + random 90);
+    sleep (300 + random 90);
     [dropObj] call dc_fnc_airdrop;
 };

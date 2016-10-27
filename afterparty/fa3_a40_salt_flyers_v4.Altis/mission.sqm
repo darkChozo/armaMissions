@@ -1,0 +1,2475 @@
+version=52;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=1;
+	class ItemIDProvider
+	{
+		nextID=232;
+	};
+	class MarkerIDProvider
+	{
+		nextID=15;
+	};
+	class Camera
+	{
+		pos[]={22890.926,28.190001,17043.73};
+		dir[]={0,-0.70710683,0.70710683};
+		up[]={0,0.70710677,0.70710677};
+		aside[]={0.99999994,0,-0};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"A3_Ui_F",
+	"A3_Air_F_Heli_Light_01",
+	"A3_Characters_F",
+	"A3_Modules_F",
+	"A3_Modules_F_Curator_Curator",
+	"A3_Data_F_Curator_Virtual",
+	"A3_Modules_F_Curator_Misc"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=7;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Air_F";
+			name="Arma 3 Alpha - Aircrafts";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item3
+		{
+			className="asr_ai3_main";
+			name="asr_ai3_main";
+		};
+		class Item4
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item5
+		{
+			className="A3_Modules_F_Curator";
+			name="Arma 3 Zeus Update - Scripted features";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item6
+		{
+			className="A3_Data_F_Curator";
+			name="Arma 3 Zeus Update - Main Configuration";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+	};
+};
+randomSeed=1007904;
+class ScenarioData
+{
+	author="darkChozo";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="EnableDebugConsole";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		briefingName="fa3_a40_salt_flyers_v4";
+		overviewText="Shoot people from MH-9 benches.";
+		resistanceWest=0;
+		startWeather=0.84999996;
+		startWind=0;
+		forecastWeather=0.84999996;
+		forecastWind=0;
+		forecastWaves=0;
+		rainForced=1;
+		lightningsForced=1;
+		wavesForced=1;
+		windForced=1;
+		year=2035;
+		month=7;
+		day=6;
+		hour=22;
+		minute=0;
+		startFogDecay=0;
+		forecastFogDecay=0;
+	};
+	class Entities
+	{
+		items=106;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={25229.479,0,17098.35};
+			name="DEATH_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=2600;
+			b=100;
+			angle=304.98529;
+			id=84;
+			atlOffset=106.94591;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={22319.393,14.043584,16084.061};
+			name="DEATH_1_1_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=1700;
+			b=100;
+			angle=34.985001;
+			id=85;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={24566.143,3.1900001,19215.07};
+			name="csat";
+			type="flag_CSAT";
+			a=2;
+			b=2;
+			id=86;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={22279.055,18.228855,19161.947};
+			name="DEATH_1_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=2600;
+			b=100;
+			angle=304.98529;
+			id=87;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={25185.855,12.748882,20177.361};
+			name="DEATH_1_1_1_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorRed";
+			fillName="Grid";
+			a=1700;
+			b=100;
+			angle=34.985001;
+			id=88;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={22917.963,3.1900001,17025.371};
+			name="nato";
+			type="flag_NATO";
+			a=2;
+			b=2;
+			id=89;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={23789.238,3.1900001,18135.02};
+			name="rearm";
+			type="Empty";
+			id=90;
+		};
+		class Item7
+		{
+			dataType="Trigger";
+			position[]={25228.359,0,17096.982};
+			angle=-0.96018755;
+			class Attributes
+			{
+				onActivation="{_x setDamage 1} forEach thisList;";
+				sizeA=2600;
+				sizeB=100;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=91;
+			type="EmptyDetector";
+			atlOffset=107.03981;
+		};
+		class Item8
+		{
+			dataType="Trigger";
+			position[]={22319.67,14.035571,16083.576};
+			angle=0.61060345;
+			class Attributes
+			{
+				onActivation="{_x setDamage 1} forEach thisList;";
+				sizeA=1700;
+				sizeB=100;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=92;
+			type="EmptyDetector";
+		};
+		class Item9
+		{
+			dataType="Trigger";
+			position[]={23745.537,3.1900001,18126.775};
+			angle=-0.96018755;
+			class Attributes
+			{
+				sizeA=2300;
+				sizeB=1600;
+				interuptable=1;
+				isRectangle=1;
+			};
+			id=93;
+			type="EmptyDetector";
+		};
+		class Item10
+		{
+			dataType="Trigger";
+			position[]={22277.936,18.261826,19160.58};
+			angle=-0.96018755;
+			class Attributes
+			{
+				onActivation="{_x setDamage 1} forEach thisList;";
+				sizeA=2600;
+				sizeB=100;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=94;
+			type="EmptyDetector";
+		};
+		class Item11
+		{
+			dataType="Trigger";
+			position[]={25186.133,12.740313,20176.877};
+			angle=0.61060345;
+			class Attributes
+			{
+				onActivation="{_x setDamage 1} forEach thisList;";
+				sizeA=1700;
+				sizeB=100;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=95;
+			type="EmptyDetector";
+		};
+		class Item12
+		{
+			dataType="Trigger";
+			position[]={23799.539,3.1900001,18076.326};
+			angle=-0.96018755;
+			class Attributes
+			{
+				condition="!(vehicle player in thisList);";
+				onActivation="if (alive player) then {[""ALERT"",[""APPROACHING COMPETITION BOUNDRIES""]] call BIS_fnc_showNotification;}";
+				sizeA=1800;
+				sizeB=1100;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=96;
+			type="EmptyDetector";
+		};
+		class Item13
+		{
+			dataType="Trigger";
+			position[]={23794.512,3.1900001,18085.135};
+			angle=-0.96018755;
+			class Attributes
+			{
+				condition="!(vehicle player in thisList);";
+				onActivation="if (alive player) then {[""ALERT"",[""TURN BACK NOW!""]] call BIS_fnc_showNotification;}";
+				sizeA=2100;
+				sizeB=1500;
+				interuptable=1;
+				repeatable=1;
+				activationBy="ANY";
+				isRectangle=1;
+			};
+			id=97;
+			type="EmptyDetector";
+		};
+		class Item14
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={22893.545,4.5902424,17068.301};
+				angles[]={0,0.74724531,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehNATO_AH1";
+				description="AAF Attack Helo 1 Pilot";
+			};
+			id=98;
+			type="B_Heli_Light_01_F";
+		};
+		class Item15
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={24486.568,4.514071,19206.857};
+				angles[]={0,3.549773,0.0066592805};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehCSAT_AH1";
+			};
+			id=99;
+			type="B_Heli_Light_01_F";
+		};
+		class Item16
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={22888.23,4.5902424,17025.771};
+				angles[]={0,0.74724531,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehNATO_AH2";
+				description="AAF Attack Helo 2 Pilot";
+			};
+			id=100;
+			type="B_Heli_Light_01_F";
+		};
+		class Item17
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={22940.521,4.5902424,17028};
+				angles[]={0,0.74724531,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehNATO_AH3";
+				description="AAF Attack Helo 1 Pilot";
+			};
+			id=101;
+			type="B_Heli_Light_01_F";
+		};
+		class Item18
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={22936.922,4.5902424,16983.586};
+				angles[]={0,0.74724531,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehNATO_AH4";
+				description="AAF Attack Helo 1 Pilot";
+			};
+			id=102;
+			type="B_Heli_Light_01_F";
+		};
+		class Item19
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={24517.523,4.5902424,19217.621};
+				angles[]={0,3.549773,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehCSAT_AH2";
+			};
+			id=103;
+			type="B_Heli_Light_01_F";
+		};
+		class Item20
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={24525.729,4.5902424,19185.953};
+				angles[]={0,3.549773,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehCSAT_AH3";
+			};
+			id=104;
+			type="B_Heli_Light_01_F";
+		};
+		class Item21
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={24572.857,4.5902424,19197.918};
+				angles[]={0,3.549773,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.60000002;
+				ammo=0.02669936;
+				init="[""v_car"",this] call f_fnc_assignGear;";
+				name="VehCSAT_AH4";
+			};
+			id=105;
+			type="B_Heli_Light_01_F";
+		};
+		class Item22
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22890.926,3.1914389,17068.781};
+						angles[]={0,0.96548128,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="NATO_AH1";
+						description="NATO Attack Helo 1 Pilot (Repair)";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=107;
+					type="B_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22887.318,3.1914389,17068.51};
+						angles[]={0,0.74723816,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH1_G1";
+						description="NATO Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=108;
+					type="B_soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22889.311,3.1914389,17066.721};
+						angles[]={0,0.74723816,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH1_G2";
+						description="NATO Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=109;
+					type="B_soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22887.338,3.1914389,17064.83};
+						angles[]={0,0.74723816,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH1_G4";
+						description="NATO Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=110;
+					type="B_soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22885.023,3.1914389,17066.791};
+						angles[]={0,0.74723816,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH1_G3";
+						description="NATO Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=111;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=106;
+		};
+		class Item23
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24489.275,3.1309114,19207.221};
+						angles[]={0,3.7474489,0.0053265258};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="CSAT_AH1";
+						description="CSAT Attack Helo 1 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=113;
+					type="O_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24494.275,3.1575816,19205.572};
+						angles[]={0,3.549773,0.0053265258};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH1_G1";
+						description="CSAT Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=114;
+					type="O_Soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24484.275,3.0999544,19205.572};
+						angles[]={0,3.549773,0.0066592805};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH1_G2";
+						description="CSAT Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=115;
+					type="O_Soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24489.275,3.1309114,19207.271};
+						angles[]={0,3.549773,0.0053265258};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH1_G4";
+						description="CSAT Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=116;
+					type="O_Soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24489.275,3.1309114,19207.271};
+						angles[]={0,3.549773,0.0053265258};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH1_G3";
+						description="CSAT Attack Helo 1 Gunner";
+						isPlayable=1;
+					};
+					id=117;
+					type="O_Soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=112;
+		};
+		class Item24
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23751.738,3.1900001,18129.959};
+			};
+			id=118;
+			type="LocationArea_F";
+		};
+		class Item25
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23839.813,3.1900001,18136.65};
+			};
+			init="this addEventHandler ['CuratorObjectPlaced',{{[_x] call f_fnc_setAISKill} forEach crew(_this select 1)}];this addCuratorEditableObjects [playableUnits,true];";
+			id=119;
+			type="ModuleCurator_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleCurator_F_Owner";
+					expression="_this setVariable ['Owner',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="F3_Zeus";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleCurator_F_Forced";
+					expression="_this setVariable ['Forced',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleCurator_F_Name";
+					expression="_this setVariable ['Name',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleInfo";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ModuleCurator_F_Addons";
+					expression="_this setVariable ['Addons',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				nAttributes=5;
+			};
+		};
+		class Item26
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={23653.445,3.1914389,18254.156};
+						angles[]={0,2.1690969,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this addAction [""Start Camera"",""[] call bis_fnc_camera;"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
+						description="BBC Reporter";
+						isPlayable=1;
+					};
+					id=121;
+					type="C_journalist_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=120;
+		};
+		class Item27
+		{
+			dataType="Group";
+			side="Civilian";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24062.789,3.1914389,17996.346};
+						angles[]={0,5.1233163,0};
+					};
+					side="Civilian";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="this addAction [""Start Camera"",""[] call bis_fnc_camera;"",[],2,false,true,"""",""driver _target == _this""]; this allowDamage false;";
+						description="CNN Reporter";
+						isPlayable=1;
+					};
+					id=123;
+					type="C_journalist_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=122;
+		};
+		class Item28
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23823.58,3.1900001,18130.609};
+			};
+			name="F3_Zeus";
+			isPlayable=1;
+			id=124;
+			type="VirtualCurator_F";
+		};
+		class Item29
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22885.611,3.1914389,17026.252};
+						angles[]={0,0.96548128,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="NATO_AH2";
+						description="NATO Attack Helo 2 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=126;
+					type="B_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22882.004,3.1914389,17025.98};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH2_G1";
+						description="NATO Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=127;
+					type="B_soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22883.996,3.1914389,17024.191};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH2_G2";
+						description="NATO Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=128;
+					type="B_soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22882.023,3.1914389,17022.301};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH2_G4";
+						description="NATO Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=129;
+					type="B_soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22879.709,3.1914389,17024.262};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH2_G3";
+						description="NATO Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=130;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=125;
+		};
+		class Item30
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22937.902,3.1914389,17028.48};
+						angles[]={0,0.96548128,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="NATO_AH3";
+						description="NATO Attack Helo 3 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=132;
+					type="B_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22934.295,3.1914389,17028.209};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH3_G1";
+						description="NATO Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=133;
+					type="B_soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22936.287,3.1914389,17026.42};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH3_G2";
+						description="NATO Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=134;
+					type="B_soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22934.314,3.1914389,17024.529};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH3_G4";
+						description="NATO Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=135;
+					type="B_soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22932,3.1914389,17026.49};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH3_G3";
+						description="NATO Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=136;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=131;
+		};
+		class Item31
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22933.859,3.1914389,16984.693};
+						angles[]={0,0.96548128,0};
+					};
+					side="West";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="NATO_AH4";
+						description="NATO Attack Helo 4 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=138;
+					type="B_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22930.252,3.1914389,16984.422};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH4_G1";
+						description="NATO Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=139;
+					type="B_soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22932.244,3.1914389,16982.633};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH4_G2";
+						description="NATO Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=140;
+					type="B_soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22930.271,3.1914389,16980.742};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH4_G4";
+						description="NATO Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=141;
+					type="B_soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={22927.957,3.1914389,16982.703};
+						angles[]={0,0.74724531,0};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="NATO_AH4_G3";
+						description="NATO Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=142;
+					type="B_soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=137;
+		};
+		class Item32
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24520.221,3.1914389,19217.984};
+						angles[]={0,3.7474489,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="CSAT_AH2";
+						description="CSAT Attack Helo 2 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=144;
+					type="O_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24525.221,3.1914389,19216.336};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH2_G1";
+						description="CSAT Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=145;
+					type="O_Soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24515.221,3.1914389,19216.336};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH2_G2";
+						description="CSAT Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=146;
+					type="O_Soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24520.221,3.1914389,19218.035};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH2_G4";
+						description="CSAT Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=147;
+					type="O_Soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24520.221,3.1914389,19218.035};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH2_G3";
+						description="CSAT Attack Helo 2 Gunner";
+						isPlayable=1;
+					};
+					id=148;
+					type="O_Soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=143;
+		};
+		class Item33
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24528.426,3.1914389,19186.316};
+						angles[]={0,3.7474489,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="CSAT_AH3";
+						description="CSAT Attack Helo 3 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=150;
+					type="O_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24533.426,3.1914389,19184.668};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH3_G1";
+						description="CSAT Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=151;
+					type="O_Soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24523.426,3.1914389,19184.668};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH3_G2";
+						description="CSAT Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=152;
+					type="O_Soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24528.426,3.1914389,19186.367};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH3_G4";
+						description="CSAT Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=153;
+					type="O_Soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24528.426,3.1914389,19186.367};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH3_G3";
+						description="CSAT Attack Helo 3 Gunner";
+						isPlayable=1;
+					};
+					id=154;
+					type="O_Soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=149;
+		};
+		class Item34
+		{
+			dataType="Group";
+			side="East";
+			class Entities
+			{
+				items=5;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24575.555,3.1914389,19198.281};
+						angles[]={0,3.7474489,0};
+					};
+					side="East";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""pp"",this] call f_fnc_assignGear;";
+						name="CSAT_AH4";
+						description="CSAT Attack Helo 4 Pilot (Repair)";
+						isPlayable=1;
+					};
+					id=156;
+					type="O_soldier_repair_F";
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24580.555,3.1873641,19196.633};
+						angles[]={0,3.549773,6.2818937};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH4_G1";
+						description="CSAT Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=157;
+					type="O_Soldier_AR_F";
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24570.555,3.1914389,19196.633};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH4_G2";
+						description="CSAT Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=158;
+					type="O_Soldier_AR_F";
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24575.555,3.1914389,19198.332};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH4_G4";
+						description="CSAT Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=159;
+					type="O_Soldier_AR_F";
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={24575.555,3.1914389,19198.332};
+						angles[]={0,3.549773,0};
+					};
+					side="East";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						init="[""mmgg"",this] call f_fnc_assignGear;";
+						name="CSAT_AH4_G3";
+						description="CSAT Attack Helo 4 Gunner";
+						isPlayable=1;
+					};
+					id=160;
+					type="O_Soldier_AR_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=155;
+		};
+		class Item35
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23924.029,4.4006519,17387.936};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=161;
+			type="Logic";
+		};
+		class Item36
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23519.998,3.1900001,17346.961};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=162;
+			type="Logic";
+		};
+		class Item37
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23721.133,3.1900001,17294.85};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=163;
+			type="Logic";
+		};
+		class Item38
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23756.174,3.1900001,18135.365};
+			};
+			areaSize[]={500,-1,500};
+			areaIsRectangle=1;
+			flags=1;
+			id=164;
+			type="ModuleCoverMap_F";
+		};
+		class Item39
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23376.672,3.1900001,17487.766};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=165;
+			type="Logic";
+		};
+		class Item40
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23656.984,3.1900001,17781.602};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=166;
+			type="Logic";
+		};
+		class Item41
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23470.295,3.1900001,17690.418};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=167;
+			type="Logic";
+		};
+		class Item42
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23951.25,3.1900001,17958.217};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=168;
+			type="Logic";
+		};
+		class Item43
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24120.689,3.7668653,17812.893};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=169;
+			type="Logic";
+		};
+		class Item44
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23705.441,3.1900001,17550.961};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=170;
+			type="Logic";
+		};
+		class Item45
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23130.965,3.1900001,17652.393};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=171;
+			type="Logic";
+		};
+		class Item46
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23056.924,3.1900001,17862.99};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=172;
+			type="Logic";
+		};
+		class Item47
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23313.387,3.1900001,17855.07};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=173;
+			type="Logic";
+		};
+		class Item48
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22869.918,3.1900001,18113.074};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=174;
+			type="Logic";
+		};
+		class Item49
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23093.102,3.1900001,18108.99};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=175;
+			type="Logic";
+		};
+		class Item50
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22921.65,3.1900001,18404.281};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=176;
+			type="Logic";
+		};
+		class Item51
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23180.633,3.1900001,18318.92};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=177;
+			type="Logic";
+		};
+		class Item52
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23636.459,3.1900001,18042.832};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=178;
+			type="Logic";
+		};
+		class Item53
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23463.563,3.1900001,18158.049};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=179;
+			type="Logic";
+		};
+		class Item54
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23526.602,3.1900001,18376.576};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=180;
+			type="Logic";
+		};
+		class Item55
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24007.164,3.1900001,18675.496};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=181;
+			type="Logic";
+		};
+		class Item56
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23790.563,3.1900001,18537.951};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=182;
+			type="Logic";
+		};
+		class Item57
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24302.375,3.1900001,18573.68};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=183;
+			type="Logic";
+		};
+		class Item58
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24115.463,3.1900001,18451.668};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=184;
+			type="Logic";
+		};
+		class Item59
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24423.213,6.9431911,18303.729};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=185;
+			type="Logic";
+		};
+		class Item60
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24161.006,3.1900001,18228.83};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=186;
+			type="Logic";
+		};
+		class Item61
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23525.406,3.1900001,18887.396};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=187;
+			type="Logic";
+		};
+		class Item62
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23385.48,3.1900001,18733.809};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=188;
+			type="Logic";
+		};
+		class Item63
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23655.482,3.1900001,18690.869};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=189;
+			type="Logic";
+		};
+		class Item64
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23084.08,3.1900001,18573.357};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=190;
+			type="Logic";
+		};
+		class Item65
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23178.922,3.1900001,18829.016};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=191;
+			type="Logic";
+		};
+		class Item66
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23863.23,3.1900001,19209.965};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=192;
+			type="Logic";
+		};
+		class Item67
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23710.449,3.1900001,19069.156};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=193;
+			type="Logic";
+		};
+		class Item68
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23264.977,3.1900001,19116.186};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=194;
+			type="Logic";
+		};
+		class Item69
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23512.988,3.1900001,19182};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=195;
+			type="Logic";
+		};
+		class Item70
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24042.281,3.1900001,18975.502};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=196;
+			type="Logic";
+		};
+		class Item71
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24331.152,5.6897945,19094.111};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=197;
+			type="Logic";
+		};
+		class Item72
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24271.455,3.1900001,18879.029};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=198;
+			type="Logic";
+		};
+		class Item73
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24600.213,3.1900001,18971.303};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=199;
+			type="Logic";
+		};
+		class Item74
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24452.867,3.1900001,18741.844};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=200;
+			type="Logic";
+		};
+		class Item75
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23620.408,3.1900001,18532.432};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=201;
+			type="Logic";
+		};
+		class Item76
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23921.994,3.1900001,17635.008};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=202;
+			type="Logic";
+		};
+		class Item77
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23752.357,3.1900001,18249.404};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=203;
+			type="Logic";
+		};
+		class Item78
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23309.883,3.1900001,18115.283};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=204;
+			type="Logic";
+		};
+		class Item79
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23933.096,3.1900001,18382.064};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=205;
+			type="Logic";
+		};
+		class Item80
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23470.875,3.1900001,17939.578};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=206;
+			type="Logic";
+		};
+		class Item81
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23756.855,3.1900001,17702.771};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=207;
+			type="Logic";
+		};
+		class Item82
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23927.336,3.1900001,17860.557};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=208;
+			type="Logic";
+		};
+		class Item83
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23935.486,3.1900001,18127.113};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=209;
+			type="Logic";
+		};
+		class Item84
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23351.807,3.1900001,18541.229};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=210;
+			type="Logic";
+		};
+		class Item85
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23867.262,3.1900001,18837.369};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=211;
+			type="Logic";
+		};
+		class Item86
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23686.947,3.1900001,18905.824};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=212;
+			type="Logic";
+		};
+		class Item87
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24507.24,3.1022484,18562.629};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=213;
+			type="Logic";
+		};
+		class Item88
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23869.717,3.1900001,19042.1};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=214;
+			type="Logic";
+		};
+		class Item89
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22866.813,3.1900001,18631.725};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=215;
+			type="Logic";
+		};
+		class Item90
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22646.305,3.1900001,18372.238};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=216;
+			type="Logic";
+		};
+		class Item91
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24203.301,3.177881,18040.996};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=217;
+			type="Logic";
+		};
+		class Item92
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23763.939,3.1900001,17920.277};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=218;
+			type="Logic";
+		};
+		class Item93
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23371.008,3.1900001,18296.844};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=219;
+			type="Logic";
+		};
+		class Item94
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24274.836,3.1900001,18394.836};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=220;
+			type="Logic";
+		};
+		class Item95
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24224.074,3.1900001,18701.424};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=221;
+			type="Logic";
+		};
+		class Item96
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23813.574,3.1900001,18716.268};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=222;
+			type="Logic";
+		};
+		class Item97
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23365.824,3.1900001,18961.475};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=223;
+			type="Logic";
+		};
+		class Item98
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23308.475,3.1900001,17700.395};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=224;
+			type="Logic";
+		};
+		class Item99
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22808.822,3.1900001,18275.908};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=225;
+			type="Logic";
+		};
+		class Item100
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23537.682,3.1900001,17450.422};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=226;
+			type="Logic";
+		};
+		class Item101
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={22974.107,3.1900001,18260.551};
+			};
+			init="if isServer then {(""Land_Airport_Tower_F"" createVehicle position this) setDir random 360;};";
+			id=227;
+			type="Logic";
+		};
+		class Item102
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23729.229,3.1900001,18399.297};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=228;
+			type="Logic";
+		};
+		class Item103
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={24088.639,3.1900001,18820.332};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=229;
+			type="Logic";
+		};
+		class Item104
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23952.074,3.1900001,18556.08};
+			};
+			init="if (isServer) then {(""Land_Offices_01_V1_F"" createVehicle position this) setDir random 360;};";
+			id=230;
+			type="Logic";
+		};
+		class Item105
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={23227.877,3.1900001,18660.865};
+			};
+			init="if isServer then {(""Land_WIP_F"" createVehicle position this) setDir random 360;};";
+			id=231;
+			type="Logic";
+		};
+	};
+	class Connections
+	{
+		class LinkIDProvider
+		{
+			nextID=2;
+		};
+		class Links
+		{
+			items=2;
+			class Item0
+			{
+				linkID=0;
+				item0=118;
+				item1=93;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=164;
+				item1=118;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+		};
+	};
+};

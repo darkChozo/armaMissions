@@ -26,8 +26,8 @@ if (isServer) then {
 	"Repair Truck",
 	"a3\ui_f\data\IGUI\cfg\simpleTasks\types\repair_ca.paa",
 	"a3\ui_f\data\IGUI\cfg\simpleTasks\types\repair_ca.paa",
-	"_this == vehicle _this && {_x > 0} count (getAllHitPointsDamage _target select 2) > .4",
-	"_this == vehicle _this && {_x > 0} count (getAllHitPointsDamage _target select 2) > .4",
+	"_this == vehicle _this && {_x > 0} count (getAllHitPointsDamage _target select 2) > .4 && _this distance _target < 5",
+	"_this == vehicle _this && {_x > 0} count (getAllHitPointsDamage _target select 2) > .4 && _this distance _target < 5",
 	{},
 	{},
 	{

@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={17555.934,31.655485,13213.524};
-		dir[]={-0.49324784,-0.58163935,0.64688921};
-		up[]={-0.35268548,0.81342357,0.46254414};
-		aside[]={0.79523361,-7.4884156e-008,0.60635573};
+		pos[]={16925.141,176.6815,12886.714};
+		dir[]={-0.35510921,-0.79490715,-0.49202421};
+		up[]={-0.46520787,0.60671574,-0.64457101};
+		aside[]={-0.81089592,6.4651249e-007,0.58525145};
 	};
 };
 binarizationWanted=0;
@@ -34,6 +34,7 @@ addons[]=
 	"A3_Soft_F_Offroad_01",
 	"A3_Weapons_F_Bootcamp_Ammoboxes",
 	"A3_Modules_F_EPB_Misc",
+	"A3_Characters_F_Exp_Civil",
 	"A3_Soft_F_Gamma_SUV_01",
 	"A3_Soft_F_Gamma_Van_01",
 	"A3_Soft_F_Gamma_Hatchback_01"
@@ -42,7 +43,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=9;
+		items=10;
 		class Item0
 		{
 			className="A3_Air_F_Beta";
@@ -67,7 +68,7 @@ class AddonsMetaData
 		class Item3
 		{
 			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted features";
+			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -88,18 +89,25 @@ class AddonsMetaData
 		class Item6
 		{
 			className="A3_Weapons_F_Bootcamp";
-			name="Arma 3 Bootcamp Update - Weapons and accessories";
+			name="Arma 3 Bootcamp Update - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
 		class Item7
 		{
 			className="A3_Modules_F_EPB";
-			name="Arma 3 Adapt Episode - Scripted features";
+			name="Arma 3 Adapt Episode - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
 		class Item8
+		{
+			className="A3_Characters_F_Exp";
+			name="Arma 3 Apex - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item9
 		{
 			className="A3_Soft_F_Gamma";
 			name="Arma 3 - Unarmored Land Vehicles";
@@ -1727,6 +1735,7 @@ class Mission
 					};
 					id=2432;
 					type="B_G_Soldier_LAT_F";
+					atlOffset=-9.5367432e-007;
 				};
 			};
 			class Attributes
@@ -1762,6 +1771,7 @@ class Mission
 					};
 					id=2437;
 					type="B_G_Soldier_M_F";
+					atlOffset=-9.5367432e-007;
 				};
 				class Item1
 				{
@@ -1790,6 +1800,7 @@ class Mission
 			{
 			};
 			id=2436;
+			atlOffset=-9.5367432e-007;
 		};
 		class Item23
 		{
@@ -2001,12 +2012,13 @@ class Mission
 				angles[]={0,0,6.2812324};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=2470;
 			type="Box_FIA_Ammo_F";
-			atlOffset=0.60890007;
+			atlOffset=0.00061225891;
 		};
 		class Item26
 		{
@@ -2022,7 +2034,7 @@ class Mission
 			};
 			id=2471;
 			type="Box_FIA_Ammo_F";
-			atlOffset=0.31727409;
+			atlOffset=0.30764771;
 		};
 		class Item27
 		{
@@ -2039,6 +2051,7 @@ class Mission
 			};
 			id=2472;
 			type="Box_FIA_Ammo_F";
+			atlOffset=0.012643814;
 		};
 		class Item28
 		{
@@ -2054,7 +2067,7 @@ class Mission
 			};
 			id=2473;
 			type="Box_FIA_Ammo_F";
-			atlOffset=0.3746376;
+			atlOffset=0.36313248;
 		};
 		class Item29
 		{
@@ -2388,6 +2401,7 @@ class Mission
 					};
 					id=2508;
 					type="O_G_Soldier_F";
+					atlOffset=3.6239624e-005;
 					class CustomAttributes
 					{
 						class Attribute0

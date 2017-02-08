@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={23151.229,25.729733,18824.885};
-		dir[]={-0.46940842,-0.6798678,0.5635106};
-		up[]={-0.43526378,0.7331602,0.52252084};
-		aside[]={0.76838267,-1.3518729e-007,0.64006752};
+		pos[]={24847.543,220.80093,21587.984};
+		dir[]={0.73337042,-0.5011133,0.45953095};
+		up[]={0.42464879,0.86537588,0.26608619};
+		aside[]={0.53100604,-4.9647497e-007,-0.84743547};
 	};
 };
 binarizationWanted=0;
@@ -61,7 +61,7 @@ class AddonsMetaData
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
-			name="Arma 3 Zeus Update - Scripted features";
+			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -103,14 +103,14 @@ class AddonsMetaData
 		class Item6
 		{
 			className="A3_Structures_F_Households";
-			name="Arma 3 Alpha - Houses";
+			name="Arma 3 - Houses";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
 		class Item7
 		{
 			className="A3_Structures_F";
-			name="Arma 3 Alpha - Buildings and structures";
+			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -138,21 +138,21 @@ class AddonsMetaData
 		class Item11
 		{
 			className="A3_Soft_F_Beta";
-			name="Arma 3 Beta - Unarmored land vehicles";
+			name="Arma 3 Beta - Unarmored Land Vehicles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
 		class Item12
 		{
 			className="A3_Structures_F_Heli";
-			name="Arma 3 Helicopters - Buildings and structures";
+			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
 		class Item13
 		{
 			className="A3_Boat_F_Gamma";
-			name="Arma 3 - Boats and submersibles";
+			name="Arma 3 - Boats and Submersibles";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};

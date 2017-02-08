@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={11023.287,112.98339,7876.9956};
-		dir[]={-0.85744542,-0.51037759,0.065627195};
-		up[]={-0.50889063,0.85994983,0.038949624};
-		aside[]={0.076314628,-7.2814146e-008,0.99708629};
+		pos[]={10971.366,136.77628,7927.8848};
+		dir[]={-0.67204851,-0.51378745,0.53327531};
+		up[]={-0.40247405,0.85791755,0.31936637};
+		aside[]={0.62159097,4.6682544e-008,0.78334725};
 	};
 };
 binarizationWanted=0;
@@ -51,14 +51,13 @@ addons[]=
 	"A3_Soft_F_Bootcamp_Van_01",
 	"A3_Soft_F_Quadbike_01",
 	"A3_Soft_F_Gamma_Hatchback_01",
-	"A3_Supplies_F_Heli_Slingload",
-	"A3_Ui_F_Exp"
+	"A3_Supplies_F_Heli_Slingload"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=23;
+		items=22;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -210,13 +209,6 @@ class AddonsMetaData
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
-			author="Bohemia Interactive";
-			url="http://www.arma3.com";
-		};
-		class Item22
-		{
-			className="A3_Ui_F_Exp";
-			name="Arma 3 Apex - User Interface";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
@@ -5111,7 +5103,7 @@ class Mission
 				};
 			};
 			id=1291;
-			atlOffset=6.8830605;
+			atlOffset=6.890624;
 		};
 		class Item142
 		{
@@ -5130,7 +5122,7 @@ class Mission
 			};
 			id=1293;
 			type="B_G_Offroad_01_armed_F";
-			atlOffset=6.8830605;
+			atlOffset=6.890624;
 		};
 		class Item143
 		{
@@ -5818,7 +5810,6 @@ class Mission
 			};
 			id=1341;
 			type="Land_Cargo40_grey_F";
-			atlOffset=0.00016021729;
 		};
 		class Item178
 		{
@@ -10295,12 +10286,13 @@ class Mission
 				angles[]={0,2.4891868,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1627;
 			type="Land_BagFence_Long_F";
-			atlOffset=10.67677;
+			atlOffset=0.14416504;
 		};
 		class Item303
 		{
@@ -10311,12 +10303,13 @@ class Mission
 				angles[]={0,2.492887,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1628;
 			type="Land_BagFence_Long_F";
-			atlOffset=10.771217;
+			atlOffset=0.060096741;
 		};
 		class Item304
 		{
@@ -10327,12 +10320,13 @@ class Mission
 				angles[]={0,2.4980264,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1629;
 			type="Land_BagFence_Long_F";
-			atlOffset=10.800461;
+			atlOffset=0.088560104;
 		};
 		class Item305
 		{
@@ -10343,12 +10337,13 @@ class Mission
 				angles[]={0,4.0800052,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1630;
 			type="Land_BagFence_Long_F";
-			atlOffset=10.731972;
+			atlOffset=0.021030426;
 		};
 		class Item306
 		{
@@ -10359,12 +10354,13 @@ class Mission
 				angles[]={0,1.8846774,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1631;
 			type="Land_BagFence_End_F";
-			atlOffset=10.576456;
+			atlOffset=0.13669586;
 		};
 		class Item307
 		{
@@ -10375,12 +10371,13 @@ class Mission
 				angles[]={0,3.3468575,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1632;
 			type="Land_BagFence_End_F";
-			atlOffset=10.660365;
+			atlOffset=0.090753555;
 		};
 		class Item308
 		{
@@ -10391,12 +10388,13 @@ class Mission
 				angles[]={0,2.4838042,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=1633;
 			type="Land_BagFence_Long_F";
-			atlOffset=10.830572;
+			atlOffset=0.11894989;
 		};
 	};
 };

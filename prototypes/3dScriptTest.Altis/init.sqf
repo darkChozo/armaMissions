@@ -2,6 +2,8 @@ enableSaving [false,false];
 
 player addAction ["Call Down Drop Pod",compileFinal preprocessFileLineNumbers "dropPodAction.sqf"];
 
+//[] execVM "zombies.sqf";
+
 
 {
     [_x select 0,[-.08,0,0],_x select 1,[-.08,0,0],{
@@ -48,7 +50,7 @@ player addAction ["Call Down Drop Pod",compileFinal preprocessFileLineNumbers "d
 		  
 if (isServer) then {
     sleep 10;
-    for "_i" from 1 to 30 do {
+    for "_i" from 1 to 1 do {
         [] spawn {
             _pod = getMarkerPos "drop" call compile loadFile "dropPodRocket.sqf";
             pod = _pod;
